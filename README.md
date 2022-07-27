@@ -2,6 +2,7 @@
 Notes adalah aplikasi catatan
 
 Develop by Vembri Riyan Diansah, S.Tr.Kom
+
 Github : https://github.com/vembririyan/Notes
 
 Library dan Framework yang digunakan pada aplikasi ini
