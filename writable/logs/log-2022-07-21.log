@@ -1,0 +1,158 @@
+CRITICAL - 2022-07-21 03:17:32 --> Undefined array key "title"
+in APPPATH\Controllers\Note.php on line 67.
+ 1 APPPATH\Controllers\Note.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Note.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 03:19:29 --> Undefined array key "title"
+in APPPATH\Controllers\Note.php on line 67.
+ 1 APPPATH\Controllers\Note.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Note.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 03:19:44 --> Undefined array key "title"
+in APPPATH\Controllers\Note.php on line 67.
+ 1 APPPATH\Controllers\Note.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Note.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:19:32 --> Undefined array key "title"
+in APPPATH\Controllers\Note.php on line 67.
+ 1 APPPATH\Controllers\Note.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Note.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:19:33 --> Undefined array key "title"
+in APPPATH\Controllers\Note.php on line 67.
+ 1 APPPATH\Controllers\Note.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Note.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:19:52 --> Undefined array key "title"
+in APPPATH\Controllers\Note.php on line 67.
+ 1 APPPATH\Controllers\Note.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Note.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:27:32 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, stdClass given, called in C:\xampp816\htdocs\notes\app\Controllers\Note.php on line 70
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 APPPATH\Controllers\Note.php(70): CodeIgniter\Validation\Validation->withRequest(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:28:42 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, stdClass given, called in C:\xampp816\htdocs\notes\app\Controllers\Note.php on line 71
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 APPPATH\Controllers\Note.php(71): CodeIgniter\Validation\Validation->withRequest(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 09:28:44 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, stdClass given, called in C:\xampp816\htdocs\notes\app\Controllers\Note.php on line 71
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 APPPATH\Controllers\Note.php(71): CodeIgniter\Validation\Validation->withRequest(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 11:51:59 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, stdClass given, called in C:\xampp816\htdocs\notes\app\Controllers\Note.php on line 69
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 APPPATH\Controllers\Note.php(69): CodeIgniter\Validation\Validation->withRequest(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 21:38:29 --> syntax error, unexpected variable "$validstatus"
+in APPPATH\Controllers\Note.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-21 21:39:13 --> Column 'title' cannot be null
+CRITICAL - 2022-07-21 21:39:13 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-21 21:39:13\', \'2022-07-21 21:39:13\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-21 21:39:13\', \'2022-07-21 21:39:13\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-21 21:39:13\', \'2022-07-21 21:39:13\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(81): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-21 21:39:18 --> Column 'title' cannot be null
+CRITICAL - 2022-07-21 21:39:18 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-21 21:39:18\', \'2022-07-21 21:39:18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-21 21:39:18\', \'2022-07-21 21:39:18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-21 21:39:18\', \'2022-07-21 21:39:18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(81): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 21:40:45 --> Attempt to read property "title" on array
+in APPPATH\Controllers\Note.php on line 81.
+ 1 APPPATH\Controllers\Note.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'APPPATH\\Controllers\\Note.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 23:17:20 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Note.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 23:29:46 --> compact(): Argument #1 must be string or array of strings, bool given
+in APPPATH\Controllers\Note.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Argument #1 must be string or array of strings, bool given', 'APPPATH\\Controllers\\Note.php', 131)
+ 2 APPPATH\Controllers\Note.php(131): compact(false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->delete('delete', '2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 23:30:41 --> compact(): Argument #1 must be string or array of strings, bool given
+in APPPATH\Controllers\Note.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Argument #1 must be string or array of strings, bool given', 'APPPATH\\Controllers\\Note.php', 131)
+ 2 APPPATH\Controllers\Note.php(131): compact(false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->delete('delete', '2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 23:30:52 --> compact(): Argument #1 must be string or array of strings, bool given
+in APPPATH\Controllers\Note.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Argument #1 must be string or array of strings, bool given', 'APPPATH\\Controllers\\Note.php', 131)
+ 2 APPPATH\Controllers\Note.php(131): compact(false)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->delete('delete', '2')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-21 23:33:13 --> Attempt to read property "db" on bool
+in APPPATH\Controllers\Note.php on line 126.
+ 1 APPPATH\Controllers\Note.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "db" on bool', 'APPPATH\\Controllers\\Note.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->delete('delete', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

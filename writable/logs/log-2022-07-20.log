@@ -1,0 +1,418 @@
+ERROR - 2022-07-20 08:47:43 --> Invalid default value for 'update_at'
+CRITICAL - 2022-07-20 21:24:21 --> syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Note.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:25:09 --> syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Note.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:25:32 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Note.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:26:44 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\Note.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:27:04 --> syntax error, unexpected identifier "request", expecting variable
+in APPPATH\Controllers\Note.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:27:13 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:27:22 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:27:52 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:27:55 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:28:06 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:29:03 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Note.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:29:09 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:29:37 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\Note.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:29:40 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:30:27 --> Too few arguments to function App\Controllers\Note::__construct(), 0 passed in C:\xampp816\htdocs\notes\system\CodeIgniter.php on line 858 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Note->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:31:05 --> Undefined variable $request
+in APPPATH\Controllers\Note.php on line 55.
+ 1 APPPATH\Controllers\Note.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Note.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:31:46 --> Undefined variable $request
+in APPPATH\Controllers\Note.php on line 50.
+ 1 APPPATH\Controllers\Note.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Note.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:32:10 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:34:51 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:38:10 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:39:52 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:40:48 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-07-20 21:40:48 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:40:48\', \'2022-07-20 21:40:48\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:40:48\', \'2022-07-20 21:40:48\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:40:48\', \'2022-07-20 21:40:48\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:40:55 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-07-20 21:40:55 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:40:55\', \'2022-07-20 21:40:55\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:40:55\', \'2022-07-20 21:40:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:40:55\', \'2022-07-20 21:40:55\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:42:00 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 21:42:00 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:42:00\', \'2022-07-20 21:42:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:42:00\', \'2022-07-20 21:42:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:42:00\', \'2022-07-20 21:42:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:42:09 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 21:42:09 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:42:09\', \'2022-07-20 21:42:09\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:42:09\', \'2022-07-20 21:42:09\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:42:09\', \'2022-07-20 21:42:09\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(50): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:48:18 --> syntax error, unexpected token "]"
+in APPPATH\Controllers\Note.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:50:21 --> Unclosed '[' on line 51 does not match ')'
+in APPPATH\Controllers\Note.php on line 64.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:51:56 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Note.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:52:16 --> Call to a member function setRules() on null
+in APPPATH\Controllers\Note.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-20 21:52:46 --> Undefined variable $validation
+in APPPATH\Controllers\Note.php on line 50.
+ 1 APPPATH\Controllers\Note.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Note.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:53:37 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 21:53:37 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:53:37\', \'2022-07-20 21:53:37\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:53:37\', \'2022-07-20 21:53:37\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:53:37\', \'2022-07-20 21:53:37\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(71): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:56:31 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 21:56:31 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:56:30\', \'2022-07-20 21:56:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:56:30\', \'2022-07-20 21:56:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:56:30\', \'2022-07-20 21:56:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(71): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:59:00 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 21:59:00 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:59:00\', \'2022-07-20 21:59:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:59:00\', \'2022-07-20 21:59:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:59:00\', \'2022-07-20 21:59:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 21:59:32 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 21:59:32 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:59:32\', \'2022-07-20 21:59:32\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:59:32\', \'2022-07-20 21:59:32\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 21:59:32\', \'2022-07-20 21:59:32\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 22:00:00 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 22:00:00 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:00\', \'2022-07-20 22:00:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:00\', \'2022-07-20 22:00:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:00\', \'2022-07-20 22:00:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 22:00:19 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 22:00:19 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:19\', \'2022-07-20 22:00:19\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:19\', \'2022-07-20 22:00:19\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:19\', \'2022-07-20 22:00:19\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 22:00:36 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 22:00:36 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:36\', \'2022-07-20 22:00:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:36\', \'2022-07-20 22:00:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:36\', \'2022-07-20 22:00:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 22:00:49 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 22:00:49 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:49\', \'2022-07-20 22:00:49\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:49\', \'2022-07-20 22:00:49\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:00:49\', \'2022-07-20 22:00:49\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-20 22:01:09 --> Column 'title' cannot be null
+CRITICAL - 2022-07-20 22:01:09 --> Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:01:09\', \'2022-07-20 22:01:09\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:01:09\', \'2022-07-20 22:01:09\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'2022-07-20 22:01:09\', \'2022-07-20 22:01:09\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_note` (`title`, `content`, `created_at`, `updated_at`) VALUES (:title:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\NoteModel.php(49): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Note.php(75): App\Models\NoteModel->add(null, null)
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Note->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
