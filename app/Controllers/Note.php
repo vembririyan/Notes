@@ -88,7 +88,7 @@ class Note extends ResourceController
                     'validation' => true,
                     'errors' => ''
                 ];
-                $res = $notemodel->add($this->request->getVar()->title, $this->request->getVar()->content))
+                $res = $notemodel->add($this->request->getVar()->title, $this->request->getVar()->content);
                 $data = [
                     'validstatus' => $validstatus,
                     'create_status' => $res
