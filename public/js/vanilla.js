@@ -37,8 +37,7 @@ async function modal_edit(id, base_url) {
 
             document.getElementById('edit_id').value = data.id;
             document.getElementById('edit_title').value = data.title;
-            var regex = /<br\s*[\/]?>/gi;
-            document.getElementById('edit_content').value = data.content.replace(regex, '\n');
+            document.getElementById('edit_content').value = data.content;
             count_title(data.title, 'count_edit_title')
             count_content(data.content, 'count_edit_content')
         })
