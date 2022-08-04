@@ -49,7 +49,7 @@ function hide_modal() {
 }
 async function get_notes() {
     try {
-        let res = await fetch('http://localhost:3000/notes/public/list_notes', {
+        let res = await fetch("<?=base_url('list_notes')>", {
             method: "get",
             headers: {
                 "Content-Type": "application/json",
@@ -124,7 +124,7 @@ async function add_note(csrf_hash) {
         "content": content
     }
     try {
-        let res = await fetch('http://localhost:3000/notes/public/note', {
+        let res = await fetch("<?=base_url('note')?>", {
             method: "post",
             headers: {
                 "Content-Type": "application/json",
@@ -166,7 +166,7 @@ async function edit_note(csrf_hash) {
         "content": content
     }
     try {
-        let res = await fetch('http://localhost:3000/notes/public/note/' + id, {
+        let res = await fetch("<?=base_url('note')?>/" + id, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -218,7 +218,7 @@ function confirm_delete(id) {
 }
 
 async function delete_note(id) {
-    let res = await fetch('http://localhost:3000/notes/public/note/' + id, {
+    let res = await fetch("<?=base_url('note')?>/" + id, {
         method: 'delete',
         headers: {
             'Content-Type': 'application/json',
