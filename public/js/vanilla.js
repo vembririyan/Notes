@@ -144,6 +144,8 @@ async function add_note(csrf_hash, base_url) {
                 get_notes(base_url)
                 document.getElementById('title').value = ''
                 document.getElementById('content').value = ''
+                count_title('', 'count_add_title')
+                count_content('', 'count_add_content')
                 hide_modal()
             } else {
                 document.getElementById('error_title').textContent = data.errors.title
