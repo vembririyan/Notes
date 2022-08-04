@@ -142,7 +142,7 @@ async function add_note(csrf_hash, base_url) {
                     buttons: false
                 })
                 hide_modal()
-                get_notes()
+                get_notes(base_url + '/list_notes')
             } else {
                 document.getElementById('error_title').textContent = data.errors.title
                 document.getElementById('error_content').textContent = data.errors.content
@@ -185,7 +185,7 @@ async function edit_note(csrf_hash, base_url) {
                 })
 
                 hide_modal()
-                get_notes()
+                get_notes(base_url + '/list_notes')
             } else {
                 document.getElementById('error_edit_title').textContent = data.errors.title
                 document.getElementById('error_edit_content').textContent = data.errors.content
@@ -234,7 +234,7 @@ async function delete_note(id, base_url) {
                 timer: 2000,
                 buttons: false
             })
-            get_notes()
+            get_notes(base_url + '/list_notes')
         } else {
             swal("Deleted", "Your notes are failed to delete!", "error")
         }
