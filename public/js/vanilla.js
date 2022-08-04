@@ -251,7 +251,10 @@ function count_title(character, idcount) {
             buttons: false
         })
     }
-    let count = character.length
+    let count = ''
+    if (character != null) {
+        count = character.length
+    }
     document.getElementById(idcount).textContent = count
 }
 
@@ -265,6 +268,9 @@ function count_content(character, idcount) {
             buttons: false
         })
     }
-    let count = character.length
+    let count = ''
+    if (character != null) {
+        count = character.length
+    }
     document.getElementById(idcount).textContent = count
 }
