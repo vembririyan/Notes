@@ -207,9 +207,6 @@ function confirm_delete(id, base_url) {
         })
         .then((willDelete) => {
             if (willDelete) {
-                swal("Poof! Your note has been deleted!", {
-                    icon: "success",
-                });
                 delete_note(id, base_url)
             } else {
                 swal("Delete Cancelled!");
