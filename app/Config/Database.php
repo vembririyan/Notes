@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'note',
+        'hostname' => 'us-cdbr-east-06.cleardb.net',
+        'username' => 'ba88267c842cca',
+        'password' => '764d0482',
+        'database' => 'heroku_bcfd0dbac7a11fd',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -49,6 +49,25 @@ class Database extends Config
         'failover' => [],
         'port'     => 3307,
     ];
+    // public $default = [
+    //     'DSN'      => '',
+    //     'hostname' => 'localhost',
+    //     'username' => 'root',
+    //     'password' => '',
+    //     'database' => 'note',
+    //     'DBDriver' => 'MySQLi',
+    //     'DBPrefix' => '',
+    //     'pConnect' => false,
+    //     'DBDebug'  => (ENVIRONMENT !== 'production'),
+    //     'charset'  => 'utf8',
+    //     'DBCollat' => 'utf8_general_ci',
+    //     'swapPre'  => '',
+    //     'encrypt'  => false,
+    //     'compress' => false,
+    //     'strictOn' => false,
+    //     'failover' => [],
+    //     'port'     => 3307,
+    // ];
 
     /**
      * This database connection is used when
