@@ -62,7 +62,7 @@ async function get_notes(base_url) {
                 listnotes +=
                     `<li class="mb-2 drop-shadow-lg">
                     <div class="absolute right-2 mx-3">
-                    <button onclick="modal_edit(` + notes.id + `,'` + notes.title + `','` + notes.content.replace(/<br*>/, "\n") + `')" class="bg-teal-100 active:bg-teal-200  rounded inline-block relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `)'><i
+                    <button onclick="modal_edit(` + notes.id + `,'` + notes.title + `','` + notes.content.replace(`/\<br\/\>/g`, "\ n") + `')" class="bg-teal-100 active:bg-teal-200  rounded inline-block relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `)'><i
                     class="fa fa-pencil text-xs text-teal-600 py-2 px-3"></i></button>
                     <button class="bg-teal-100 active:bg-teal-200 rounded inline-block  relative top-3 outline-none" onclick="confirm_delete(` + notes.id + `,'` + base_url + `')"><i
                     class="fa fa-trash text-xs text-red-600 py-2 px-3"></i></button>
