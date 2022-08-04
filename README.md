@@ -5,6 +5,10 @@ Developed by Vembri Riyan Diansah, S.Tr.Kom
 
 Github : https://github.com/vembririyan/Notes
 
+# :test_tube: Demo Aplikasi
+:globe_with_meridians: https://vembririyan-notes.herokuapp.com/
+
+# :information_source: Info Aplikasi
 Library dan Framework yang digunakan pada aplikasi ini
 - Framework Codeigniter v4.2.1
 - Tailwind CSS
