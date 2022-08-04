@@ -64,7 +64,7 @@ async function get_notes(base_url) {
                     <div class="absolute right-2 mx-3">
                     <button onclick="modal_edit(` + notes.id + `,'` + notes.title + `','` + notes.content + `')" class="bg-teal-100 active:bg-teal-200  rounded inline-block relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `)'><i
                     class="fa fa-pencil text-xs text-teal-600 py-2 px-3"></i></button>
-                    <button class="bg-teal-100 active:bg-teal-200 rounded inline-block  relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `)'><i
+                    <button class="bg-teal-100 active:bg-teal-200 rounded inline-block  relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `,'` + base_url + `')'><i
                     class="fa fa-trash text-xs text-red-600 py-2 px-3"></i></button>
                     </div>
                     <div class="bg-white rounded-lg">
@@ -197,7 +197,7 @@ async function edit_note(csrf_hash, base_url) {
     }
 }
 
-function confirm_delete(id) {
+function confirm_delete(id, base_url) {
     swal({
             title: "Are you sure?",
             text: "Once deleted, you will not be able to recover this note!",
@@ -210,7 +210,7 @@ function confirm_delete(id) {
                 swal("Poof! Your note has been deleted!", {
                     icon: "success",
                 });
-                delete_note(id)
+                delete_note(id, base_url)
             } else {
                 swal("Delete Cancelled!");
             }
