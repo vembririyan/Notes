@@ -88,7 +88,7 @@ class Note extends ResourceController
                     'validation' => true,
                     'errors' => ''
                 ];
-                $res = $notemodel->add($this->request->getVar()->title, nl2br($this->request->getVar()->content));
+                $res = $notemodel->add($this->request->getVar()->title, $this->request->getVar()->content))
                 $data = [
                     'validstatus' => $validstatus,
                     'create_status' => $res
@@ -150,7 +150,7 @@ class Note extends ResourceController
                 $notemodel = new NoteModel();
                 $data = [
                     'title' => $this->request->getVar()->title,
-                    'content' => nl2br($this->request->getVar()->content)
+                    'content' => $this->request->getVar()->content
                 ];
                 $notemodel->update($this->request->getVar()->id, $data);
                 if ($notemodel->db->affectedRows() >= 0) {
