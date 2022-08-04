@@ -142,6 +142,8 @@ async function add_note(csrf_hash, base_url) {
                     buttons: false
                 })
                 get_notes(base_url)
+                document.getElementById('title').value = ''
+                document.getElementById('content').value = ''
                 hide_modal()
             } else {
                 document.getElementById('error_title').textContent = data.errors.title
