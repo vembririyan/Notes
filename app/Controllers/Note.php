@@ -105,7 +105,9 @@ class Note extends ResourceController
      */
     public function edit($id = null)
     {
-        //
+        $notemodel = new NoteModel();
+        $res = $notemodel->find($id);
+        echo json_encode($res);
     }
 
     /**

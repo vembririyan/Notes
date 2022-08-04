@@ -12,25 +12,39 @@ function modal_add() {
 
     modaladdnote.classList.add("show")
     modaladdnote.classList.remove("hidden")
-
 }
 
 
-function modal_edit(id, title, content) {
+async function modal_edit(id, base_url) {
     let overlay = document.getElementById('overlay');
     let modaleditnote = document.getElementById('modal_edit_note');
 
-    overlay.classList.add("show")
-    overlay.classList.remove("hidden")
+    try {
+        let res = await fetch(base_url + '/note/' + id + '/edit', {
+            method: "get",
+            headers: {
+                "Content-Type": "application/json",
+                "X-Requested-With": "XMLHttpRequest"
+            },
+        })
+        res.json().then(data => {
+            overlay.classList.add("show")
+            overlay.classList.remove("hidden")
 
-    modaleditnote.classList.add("show")
-    modaleditnote.classList.remove("hidden")
+            modaleditnote.classList.add("show")
+            modaleditnote.classList.remove("hidden")
 
-    document.getElementById('edit_id').value = id;
-    document.getElementById('edit_title').value = title;
-    document.getElementById('edit_content').value = content;
-    count_title(title, 'count_edit_title')
-    count_content(content, 'count_edit_content')
+
+            document.getElementById('edit_id').value = data.id;
+            document.getElementById('edit_title').value = data.title;
+            var regex = /<br\s*[\/]?>/gi;
+            document.getElementById('edit_content').value = data.content.replace(regex, '\n');
+            count_title(data.title, 'count_edit_title')
+            count_content(data.content, 'count_edit_content')
+        })
+    } catch (error) {
+
+    }
 }
 
 function hide_modal() {
@@ -56,13 +70,14 @@ async function get_notes(base_url) {
                 "X-Requested-With": "XMLHttpRequest"
             },
         })
-        let listnotes = ''
+        let listnotes = '';
+        var regex = /<br\s*[\/]?>/gi;
         res.json().then(data => {
             data.forEach(notes => {
                 listnotes +=
                     `<li class="mb-2 drop-shadow-lg">
                     <div class="absolute right-2 mx-3">
-                    <button onclick="modal_edit(` + notes.id + `,'` + notes.title + `',` + notes.content.replace(/<br ?\/?>/g, '\n') + `)" class="bg-teal-100 active:bg-teal-200  rounded inline-block relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `)'><i
+                    <button onclick="modal_edit(` + notes.id + `,'` + base_url + `')" class="bg-teal-100 active:bg-teal-200  rounded inline-block relative top-3 outline-none" onclick='confirm_delete(` + notes.id + `)'><i
                     class="fa fa-pencil text-xs text-teal-600 py-2 px-3"></i></button>
                     <button class="bg-teal-100 active:bg-teal-200 rounded inline-block  relative top-3 outline-none" onclick="confirm_delete(` + notes.id + `,'` + base_url + `')"><i
                     class="fa fa-trash text-xs text-red-600 py-2 px-3"></i></button>
@@ -78,8 +93,8 @@ async function get_notes(base_url) {
                         </div>
                         
                         </a>
-                        <div id="detail_note_` + notes.id + `" class="hidden detail_show rounded-bottom rounded-b-lg bg-teal-200 p-3 block">
-                        <p class="text-sm m-3">` + notes.content + `</p>
+                        <div id="detail_note_` + notes.id + `" class="hidden detail_show rounded-bottom rounded-b-lg bg-teal-50 p-3 block">
+                        <pre><p class="text-sm m-3 text-gray-700">` + notes.content + `</p></pre>
                         </div>
                     </div>
                 </li>`
