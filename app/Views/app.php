@@ -65,7 +65,7 @@
                 class="px-2 py-1 mt-3 mx-auto block bg-teal-600 hover:bg-teal-700 rounded-lg text-white"><i
                     class="fa fa-save"></i>
                 Save</button>
-        </form>
+        </div>
     </div>
 
     <div id="modal_edit_note"
