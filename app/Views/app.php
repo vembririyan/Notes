@@ -50,7 +50,7 @@
         <button class="px-2 rounded-md float-right outline-none bg-teal-200 hover:bg-teal-300" onclick="hide_modal()"><i
                 class="fa fa-xmark text-gray-500"></i></button>
         <h1 class="text-lg text-teal-900 mb-5"><i class="fa fa-note-sticky"></i> Add Note</h1>
-        <form id="form_add_note">
+        <div id="form_add_note">
             <input onkeyup="count_title(this.value,'count_add_title')"
                 class="px-2 py-1 block text-sm w-full rounded-md focus:border-teal-400 focus:border outline-none bg-teal-100 text-teal-900"
                 type="text" id="title" placeholder="Title">
